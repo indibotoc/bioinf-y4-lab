@@ -45,10 +45,10 @@ OUTPUT_DIR = ""
 OUTPUT_CSV = ""
 
 CORR_METHOD = "spearman"   # TODO: "pearson" sau "spearman"
-VARIANCE_THRESHOLD =   # prag pentru filtrare gene
-ADJ_THRESHOLD =     # prag pentru |cor| (ex: 0.6)
-USE_ABS_CORR =        # True => folosiți |cor| la prag
-MAKE_UNDIRECTED =      # rețelele de co-expresie sunt de obicei neorientate
+VARIANCE_THRESHOLD =""   # prag pentru filtrare gene
+ADJ_THRESHOLD =""     # prag pentru |cor| (ex: 0.6)
+USE_ABS_CORR =  ""      # True => folosiți |cor| la prag
+MAKE_UNDIRECTED =  ""    # rețelele de co-expresie sunt de obicei neorientate
 
 
 def read_expression_matrix(path: Path) -> pd.DataFrame:
