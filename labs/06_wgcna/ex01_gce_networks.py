@@ -40,9 +40,9 @@ import networkx as nx
 # --------------------------
 # Config — completați după nevoie
 # --------------------------
-INPUT_CSV =
-OUTPUT_DIR =
-OUTPUT_CSV =
+INPUT_CSV = ""
+OUTPUT_DIR = ""
+OUTPUT_CSV = ""
 
 CORR_METHOD = "spearman"   # TODO: "pearson" sau "spearman"
 VARIANCE_THRESHOLD =   # prag pentru filtrare gene
